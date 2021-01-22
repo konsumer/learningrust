@@ -1,0 +1,8 @@
+[package]
+name = "ab_guessing_game"
+version = "0.1.0"
+authors = ["David Konsumer <konsumer@jetboystudio.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.6.0"
