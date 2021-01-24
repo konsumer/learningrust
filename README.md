@@ -6,7 +6,7 @@ I went through every page of [the book](https://doc.rust-lang.org/book/) and wro
 
 After that, I made [a rust module](https://dev.to/ghost/rust-project-structure-example-step-by-step-3ee) that can start/stop a socket thread. I structured everything using guidance from [the cargo book](https://doc.rust-lang.org/cargo/guide/). I included unit-tests, Gitlab CI to build for various platforms, and docs to describe the API.
 
-Then I exposed that lib to C (for FFI in lua) including generating a `.h`file and 
+Then I exposed that lib to C (for FFI in lua) including generating a `.h`file and a test lua program that uses the bindings.
 
 ## usage
 
