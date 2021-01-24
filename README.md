@@ -2,7 +2,7 @@
 
 I went through every page of [the book](https://doc.rust-lang.org/book/) and wrote any code examples they had, and took notes.
 
-After that, I made a rust lib that can start/stop a socket thread.
+After that, I made [a rust module](https://dev.to/ghost/rust-project-structure-example-step-by-step-3ee) that can start/stop a socket thread.
 
 Then I exposed that lib to C (for FFI in lua.)
 
