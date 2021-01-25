@@ -7,13 +7,13 @@ fn fahrenheit_to_celsius (fdegrees: f64) -> f64 {
 
 // Generate the nth Fibonacci number.
 // F(n) = F(n-1) + F(n-2)
-// I am  using recursion, even though they probly intended me to use a loop (as that was the subject of this chapter)
+// I am  using recursion, even though they probly intended me to use a loop (as that was the subject of this chapter) because I liek recursion, and it matchjed the algo better
 fn fib(n: u64) -> u64 {
     if n == 0 {
         return 0;
     } else if n == 1 || n == 2 {
         return 1;
-    } else{
+    } else {
         return fib(n-1) + fib(n-2);
     }
 }
