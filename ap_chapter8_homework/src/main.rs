@@ -17,16 +17,18 @@ struct VecStats {
     mode: i32
 }
 
-fn questionA(numbers: &Vec<i32>) -> VecStats {
-    VecStats {
-        mean: average(numbers),
-        median: median(numbers),
-        mode: mode(numbers)
+impl VecStats {
+    fn new(numbers: &Vec<i32>) -> VecStats {
+        VecStats {
+            mean: average(numbers),
+            median: median(numbers),
+            mode: mode(numbers)
+        }
     }
 }
 
 
 fn main() {
     let numbers = vec![5,6,7,3,4,9,6];
-    println!("{:?}", questionA(&numbers));
+    println!("{:?}", VecStats::new(&numbers));
 }
